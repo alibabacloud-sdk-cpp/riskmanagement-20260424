@@ -80,7 +80,7 @@ namespace Models
     // The subscription status. Valid values:
     // 
     // - **SUBSCRIBED**: Subscribed.
-    // - **UNSUBSCRIBED**: Unsubscribed.
+    // - **UNSUBSCRIBED**: Not subscribed.
     shared_ptr<string> data_ {};
     // The prompt message.
     shared_ptr<string> message_ {};
